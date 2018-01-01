@@ -7,17 +7,7 @@ body{
 	border-bottom: solid 1px #666666;
 	float:left;
 }
-.half{
-	display:inline-block;
-	width:50%;
-	float:left;
-}
 
-.quarter{
-	display:inline-block;
-	width:25%;
-	float:left;
-}
 
 ul.nav{
 	list-style-type:none;
@@ -64,9 +54,31 @@ footer img{
 	margin-top: 74px;
 }
 
+.profile{
+	width:300px;
+	height:auto;
+	border-radius: 50%;
+	border: 1px solid #b72222;
+    padding: 5px;
+
+}	
+
+/*layout*/	
 .container {
 	width:960px;
 	margin:0 auto;
 	clear:both;
 	padding-top:48px;
+}
+
+.half{
+	display:inline-block;
+	width:50%;
+	float:left;
+}
+
+.quarter{
+	display:inline-block;
+	width:25%;
+	float:left;
 }
